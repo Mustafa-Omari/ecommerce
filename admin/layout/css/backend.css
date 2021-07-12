@@ -1,0 +1,377 @@
+/* Start MAin Rules */
+
+body {
+    background-color: #F4F4F4;
+    font-size: 16px; 
+}
+
+.astrisk { 
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 2px;
+    color: #d41e1e;}
+
+.nice-message { 
+    padding: 10px;
+    background-color: #FFF;
+    margin: 10px 0 ; 
+    border-left: 5px solid #080;
+}
+/* End Main Rules */
+
+/* Start Login Form  */
+
+.login {
+    width: 300px; 
+    margin: 100px auto;
+}
+
+.login h4 {
+    color: #888 ;
+}
+
+.login input { 
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+.login .btn {
+    background-color: #008dde;
+}
+
+/* End Login Form  */
+
+/* Start Bootstrap Edits */
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.nav>li>a {
+    padding: 10px 12px; 
+}
+
+.navbar-inverse .navbar-nav >.open>a,
+.navbar-inverse .navbar-nav >.open>a:focus,
+.navbar-inverse .navbar-nav >.open>a:hover {
+    background-color: #3498db;
+}
+.navbar-dark .navbar-nav .navbar-link, 
+.navbar-dark .navbar-nav .nav-link:focus,
+ .navbar-dark .navbar-nav .nav-link:hover,
+ .dropdown-menu {
+     background-color:  #3498db;
+ }
+
+ .dropdown-menu {
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+}
+
+ .dropdown-item {
+   color: #FFF;
+   padding: 6px 10px;
+ }
+
+ .dropdown-item:hover ,
+ .dropdown-item:focus {
+     background-color: #8e44ad;
+ }
+
+ .form-control { 
+     position: relative; 
+
+ }
+
+/* End Bootstrap Edits */
+
+/* Start Dashboard Page */ 
+
+.home-stats .stat { 
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stats .stat  i { 
+    position: absolute;
+    font-size: 75px;
+    top: 41px;
+    left: 25px;
+}
+.home-stats .stat .info { 
+    float: right ; 
+}
+.home-stats .stat a { 
+    color: #FFF; 
+}
+
+.home-stats .stat a:hover { 
+    text-decoration: none;
+}
+
+.home-stats .stat span { 
+    display: block;
+    font-size: 60px; 
+}
+
+.home-stats .st-members { 
+    background-color: #3498db;
+}
+
+.home-stats .st-pending { 
+    background-color: #c0392b;
+}
+
+.home-stats .st-items { 
+    background-color: #d35400;
+}
+
+.home-stats .st-comments { 
+    background-color: #8e44ad;
+}
+
+.latest { 
+    margin-top: 30px;
+}
+
+.latest .toggle-info { 
+    color: #999 ; 
+    cursor: pointer ; 
+}
+.latest .toggle-info:hover { 
+    color: #444; 
+}
+
+.latest-users {
+    margin-bottom: 0;
+}
+
+.latest-users li { 
+    padding: 10px  ;
+    overflow: hidden;
+}
+
+.latest-users li:nth-child(odd) {
+    background-color: #EEE;
+}
+
+.latest-users .btn-success , 
+.latest-users .btn-info { 
+    padding: 2px 8px;
+}
+
+.latest-users .btn-info { 
+    margin-right: 4px;
+}
+
+.latest .comment-box {
+    margin: 5px 0  10px ; 
+}
+
+.latest .comment-box .member-n ,
+.latest .comment-box .member-c { 
+    float: left; 
+}
+
+.latest .comment-box .member-n { 
+    width: 80px; 
+    text-align: center;
+    margin-right: 20px ;
+    position: relative;
+    top: 2px; 
+}
+ .btn-app { 
+   font-size: 10px; 
+    
+}
+
+
+.latest .comment-box .member-c { 
+    width: calc(100% - 100px) ; 
+    background-color: #e8e8e8;
+    padding: 10px;
+    position: relative;
+}
+
+.latest .comment-box .member-c:before { 
+    content: "";
+    display: block ; 
+    position: absolute ; 
+    left: -30px;
+    top: -1px; 
+    width: 0 ; 
+    height: 0; 
+    border-style: solid;
+    border-color: transparent #e8e8e8 transparent transparent;
+    border-width: 15px;
+
+}
+
+/* End Dashboard Page */
+
+/* Start Members Page  */
+
+h1 { 
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.show-pass {
+    position: absolute;
+    top: 3px;
+    right: -30px;
+}
+
+.main-table { 
+    -webkit-box-shadow :  0 3px 15px #CCC ;
+    -moz-box-shadow :  0 3px 15px #CCC ;
+    box-shadow :  0 3px 15px #CCC ;
+}
+
+.main-table td { 
+    background-color: #FFF;
+    vertical-align: middle;
+}
+
+.main-table tr:first-child td { /* You Can Use Thead*/
+    background-color: #333;
+    color: #FFF;
+}
+
+.main-table .btn { 
+    padding: 3px 10px !important;
+}
+.delete , .active { 
+    position: relative;
+    top: 1px;
+}
+
+.activate {
+    margin-left: 4px;
+
+}
+
+/* End Members Page  */
+
+/* Start Categories Page */
+
+.form-group .rad{ 
+    margin-right: 10px !important;
+}
+
+.categories .card-header { 
+    color: #959595 ; 
+    font-weight: bold;
+}
+
+.categories .card-header i { 
+    position: relative;
+    bottom: 1px;
+}
+
+.categories .card-body { 
+    padding: 0 ; 
+}
+
+.categories .option a   { 
+    text-decoration: none; 
+    color : #888 ;
+}
+.categories .option span { 
+    color: #888; 
+    cursor: pointer;
+}
+.categories .option .active   { 
+    text-decoration: none;
+    color: #0652DD ;  
+}
+
+.categories  hr {
+    border-top: 2px dashed rgba(0,0,0,.1);
+    /* margin-top : 5px;  */
+    margin-top: 0 ; 
+    margin-bottom: 0;
+}
+
+.categories .cat { 
+
+    /* padding-bottom: 10px; */
+    padding: 10px ; 
+    position: relative;
+    overflow: hidden;
+}
+.categories .cat:hover .hidden-buttons {
+    right: 10px; 
+}
+
+.categories .cat:hover {
+    background-color: #EEE;
+}
+
+.categories .cat .hidden-buttons { 
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; 
+
+    position: absolute;
+    top: 15px;
+    right: -185px;
+}
+.categories .cat .hidden-buttons a{ 
+    margin-right: 5px;
+}
+
+.categories .cat h3{ 
+    margin-bottom:  0 ;  
+    cursor: pointer;  
+    font-weight: bold;
+    color: #6A6A6A;
+}
+.categories .cat .full-view p  { 
+    margin : 0  0 10px ; 
+    /* margin:  0 10px ;  */
+    color: #707070
+}
+.categories .cat:last-of-type ~ hr {
+    display: none;
+}
+
+.categories .cat .visibilty ,
+.categories .cat .commenting ,
+.categories .cat .advertises { 
+    /* bagdar a36i el color ll ketabeh msh lal background o b3mal el 5a6 bold  bdal lun el background b6la3 7elu :) */
+    color: #FFF;
+    padding: 4px 6px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.categories .cat .visibilty {
+    background-color: #d35400 ;
+}
+.categories .cat .commenting { 
+    background-color: #576574;
+}
+.categories .cat .advertises { 
+    background-color: #e55039 ; 
+}
+
+.categories .add-category { 
+        margin: 30px 2px;
+}
+
+
+
+/* End Categories Page */

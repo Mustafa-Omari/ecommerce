@@ -1,0 +1,22 @@
+Simple Analysis  
+
+
+ Pages & Features 
+
+- Settings 
+- Dashboard 
+- Statistics 
+- Log 
+- Users 
+- Comments 
+
+ 
+
+
+
+
+- Design 
+
+---- Nicescroll 
+---- Font Awesome 
+---- 
